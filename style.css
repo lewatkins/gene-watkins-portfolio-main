@@ -1,0 +1,115 @@
+/* -------  General Styles ------- */
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 180px;
+    background-color: #179af7;
+}
+
+.logo {
+    font-family: 'Helvetica';
+    font-size: 82px;
+    color: black;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+header h2 {
+    font-family: 'Monotype Corsiva', serif;
+    color: #0e0a00;
+    margin: 0px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: #179af7;
+    
+}
+
+section {
+    padding: 0 25%;
+    margin: 80px 0;
+}
+
+/* -------  Type ------- */
+
+h1,
+h2,
+h3 {
+    font-family: 'Times New Roman', sans-serif;
+    color: ##0033cc;
+    text-align: center;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p,
+li {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:link {
+    color: #008000;
+}
+
+a:visited {
+    color: #ff9f80;
+}
+
+a:hover {
+    color: #0000b3;
+}
+
+a:active {
+    color: #ff33ff;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+    padding-top: 80px;
+    border-top: 2px solid #403933;
+}
