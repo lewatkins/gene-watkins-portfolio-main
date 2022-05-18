@@ -100,6 +100,31 @@ em {
     font-style: normal;
 }
 
+.html-ratings {
+margin: 0;
+padding: .3rem;
+background-color: #eee;
+font: 1rem 'Fira Sans', sans-serif;
+}
+
+.html-ratings > h1,
+.html-rating {
+margin: .5rem;
+padding: .3rem;
+font-size: 1.2rem;
+}
+
+.html-rating {
+background: right/contain content-box border-box no-repeat
+url('/media/examples/rain.svg') white;
+}
+
+.html-rating > h2,
+.html-rating > p {
+margin: .2rem;
+font-size: 1rem;
+}
+
 footer p {
     color: black;
     text-align: center;
